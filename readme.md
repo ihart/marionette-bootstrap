@@ -13,6 +13,12 @@ Install front-end modules:
 npm install
 ```
 
+Build it:
+```
+gulp
+```
+
+
 ## Running
 
 Run the server:
