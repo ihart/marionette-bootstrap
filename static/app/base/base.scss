@@ -1,0 +1,68 @@
+/**
+ * Base
+ *
+ * Extends suitcss-base to add custom fonts,
+ * typographic features and responsive elements
+ */
+
+/**
+ * Box sizing
+ */
+
+html {
+  background-color: var(--colour-grey-dark);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--colour-white);
+}
+
+body{
+  font-family: "Arial", serif;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Selection
+ */
+
+::selection {
+  background: var(--colour-grey-light);
+  text-shadow: none;
+}
+
+/**
+ * Outline
+ */
+
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &:focus {
+    outline: 0;
+  }
+}
+
+/**
+ * Responsive elements
+ */
+
+canvas,
+iframe,
+img,
+svg,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+// @font-face {
+//   font-family: GothamMedium;
+//   src: url("/fonts/Gotham-Medium.otf") format("opentype");
+// }
